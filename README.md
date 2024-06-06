@@ -2,7 +2,7 @@
 С помощью этого программного обеспечения можно упростить редактирование текстов, а также изображений.
 
 ## Видео гайд
-[Клик]([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/watch?v=BQDqu4QQwMA)
+[Клик](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 # Содержание
 - [Технология](#технология)
@@ -117,5 +117,7 @@ Microsoft Visual Studio Community 2022
 http://metanit.com/sharp/
 
 https://metanit.com/sharp/windowsforms/
+
+
 
 
