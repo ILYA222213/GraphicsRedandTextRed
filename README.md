@@ -1,6 +1,9 @@
 # Приложение "Комбинированный редактор текста и графики"
 С помощью этого программного обеспечения можно упростить редактирование текстов, а также изображений.
 
+## Видео гайд
+[Клик]([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/watch?v=BQDqu4QQwMA)
+
 # Содержание
 - [Технология](#технология)
 - [Использование](#использование)
@@ -115,5 +118,4 @@ http://metanit.com/sharp/
 
 https://metanit.com/sharp/windowsforms/
 
-## Видео гайд
-[Клик](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
