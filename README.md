@@ -104,4 +104,6 @@ Microsoft Visual Studio Community 2022
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/46f09bfa-2102-4c74-8314-11c779e055a1)
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/d629a5ec-d78a-42b8-8f6e-cf1d46882dfd)
 
+# Обратная связь
+По вопросам, возникшим при эксплуатации программного продукта обращайтесть на мою электронную почту: [il.ruzanovil@yandex.ru]
 
