@@ -37,6 +37,7 @@ Microsoft Visual Studio Community 2022
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/9eb9e601-c7f5-4524-b5a1-bc5580700bdd)
 
 В выбадающем списке "Парвка" присутствуют такие функции как, "Копировать", "Вставить", "Вырезать", "Выделить всё"
+
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/c4bf2751-b237-4824-aceb-2677c851c542)
 
 Следующая функция это изменение шрифта, благодаря этой функции можно измениеть размер, сам шрифт, назначение, видоизменене, набор символов.
@@ -46,6 +47,7 @@ Microsoft Visual Studio Community 2022
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/f45f7d57-008b-448f-b1a8-2173489f56f5)
 
 Функция "Сохранить как QR" даёт вам возможность сохранить данные вашего файла QR- кодом, и скохранить этот QR на компьютер
+
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/3877a97e-f3e5-446d-b686-209c6bcb70ca)
 
 С помощью кнопки "Рисовать", вы можете перейти на форму для графического редактиррования, тут вы сможете:
@@ -59,6 +61,7 @@ Microsoft Visual Studio Community 2022
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/e4c5c061-3ebe-4556-9132-c15ddd283ed5)
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/297c8161-5869-4109-a93a-252e09e6b50b)
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/e55a4e70-3145-40fa-8320-d9351e5300e9)
+
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/d9597246-85e6-40a8-b9a1-3fcb695ba0a3)
 
 
