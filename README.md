@@ -64,6 +64,78 @@ Microsoft Visual Studio Community 2022
 
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/d9597246-85e6-40a8-b9a1-3fcb695ba0a3)
 
+# Тестирование
+## Тестовый граф
+***
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/85745cef-17f7-4c05-9fb4-24f9b74c7535)
+
+
+На рисунке 1 представлен граф программы
+
+Рисунок 1 – Граф программы
+
+1. Открытие программы
+2. Открытие файла 
+3. Открытие формы "Графический редактор"
+4. Редактирование файла
+5. Создание QR кода
+6. Выбор изображения
+7. Сохранение файла с QR кодом
+8. Изменение изображения
+9. Сохранение изображения
+10. Выход из формы
+11. Выход из программы
+
+## Тестовые пути
+***
+Т1: 1-2-4-7-12
+
+Т2: 1-2-4-5-7-12
+
+Т3: 1-3-6-8-10-11-12
+
+Путь 1: Открытие окна редактирование, открытие файла, редактирование, сохранение файла, выход из приложения;
+
+Путь 2: Открытие окна редактирование, открытие файла, редактирование, создание QR- кода, сохранение файла с QR-кодом, выход из приложения;
+
+Путь 3: Открытие окна редактирования, открытие формы "Графический редактор", выбор изображения, изменение изображения, сохранение изображения, выход из формы, выход из приложения
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/be8f512d-57be-4d37-86b1-70a810932006)
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/46f09bfa-2102-4c74-8314-11c779e055a1)
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/d629a5ec-d78a-42b8-8f6e-cf1d46882dfd)
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/d886797c-56ae-479f-b21f-e847eff3d67b)
+Рисунок 1– Тестирование открытия файла
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/f021fce0-1599-47ca-b646-ebae8c5e80c1)
+Рисунок 2– Тестирование сохранение файла
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/7ba34f75-d127-414b-9728-857de634b8fc)
+Рисунок 3– Тестирование изменения шрифта
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/5d588db0-9704-4c8c-bfda-9c638f114465)
+Рисунок 4 – Тестирование изменения фона
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/0e5597f1-5829-4a79-a98b-5923acfe4694)
+Рисунок 5 – Тестирование создания файла, при отсутствии расчёта
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/e15c49ae-c9e9-4a8c-8476-b4f46673936a)
+Рисунок 6 – Тестирование функции перехода на форму
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/2916d615-f1bb-4abc-9a6b-5ca7fff7018b)
+Рисунок 7 – Тестирование функции открытия изображения
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/03322464-1a3d-4260-9160-ca52fe9c2722)
+Рисунок 8 – Тестирование функции открытия изображения
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/ccdafd23-45e4-44af-97f3-4958c26272ee)
+Рисунок 9 – Тестирование изменения цвета линии
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/ef8eecaf-17dd-4095-827c-da3e81ff1907)
+Рисунок 10 – Тестирование изменения размера линии
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/e1c1a24b-9e3d-44dd-acb9-5f320733ca60)
+Рисунок 11 – Тестирование функции сохранения файла
 
 
 
