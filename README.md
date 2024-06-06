@@ -29,9 +29,39 @@ Microsoft Visual Studio Community 2022
 
 В выпадающем списке есть несколько функций, такие как, "Открыть", "Сохранить". Эти функции предназначены для отрытия текстового файла, и сохранения его.
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/a4128be4-10bd-4cce-9ab5-94a52c5861a6)
+
 Щелкнув по кнопке "Открыть" откроется диалоговое окно, где вы сможете выбрать нужный вам файл.
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/52ad842a-8631-4e39-ba6d-fac0175889e4)
+
 Щелкнув по кнопке "Сохранить", вы сможете сохранить измененный вами файл.
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/9eb9e601-c7f5-4524-b5a1-bc5580700bdd)
+
+В выбадающем списке "Парвка" присутствуют такие функции как, "Копировать", "Вставить", "Вырезать", "Выделить всё"
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/c4bf2751-b237-4824-aceb-2677c851c542)
+
+Следующая функция это изменение шрифта, благодаря этой функции можно измениеть размер, сам шрифт, назначение, видоизменене, набор символов.
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/50b75515-3a4e-4a28-ad17-d18b38ef3a05)
+
+Также с момощью кнопки "Фон" вы можете изменить цвет фона рабочего окна.
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/f45f7d57-008b-448f-b1a8-2173489f56f5)
+
+Функция "Сохранить как QR" даёт вам возможность сохранить данные вашего файла QR- кодом, и скохранить этот QR на компьютер
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/3877a97e-f3e5-446d-b686-209c6bcb70ca)
+
+С помощью кнопки "Рисовать", вы можете перейти на форму для графического редактиррования, тут вы сможете:
+1. Открыть изображение
+2. Выбрать цвет линии
+3. Изменить размер линии
+4. Сохранить изображение
+5. Посмотреть информацию о программе
+6. Выйти из формы
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/e4c5c061-3ebe-4556-9132-c15ddd283ed5)
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/297c8161-5869-4109-a93a-252e09e6b50b)
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/e55a4e70-3145-40fa-8320-d9351e5300e9)
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/d9597246-85e6-40a8-b9a1-3fcb695ba0a3)
+
+
+
 
 
