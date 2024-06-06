@@ -105,5 +105,12 @@ Microsoft Visual Studio Community 2022
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/d629a5ec-d78a-42b8-8f6e-cf1d46882dfd)
 
 # Обратная связь
-По вопросам, возникшим при эксплуатации программного продукта обращайтесть на мою электронную почту: [il.ruzanovil@yandex.ru]
+По вопросам, возникшим при эксплуатации программного продукта обращайтесть на мою электронную почту: il.ruzanovil@yandex.ru
+
+# Команда проекта
+Рузанов Илья - Главный разработчик, программист, тестироващик, дизайнер, гений, миллиардер, плей-бой, филантроп
+
+# Источники
+http://metanit.com/sharp/
+https://metanit.com/sharp/windowsforms/
 
