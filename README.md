@@ -23,3 +23,15 @@ Microsoft Visual Studio Community 2022
 2. Найти программу «Redactor.sin».
 3. Открыть её.
 4. Нажать на кнопку запуска
+
+После открывается форма с несколькими доступными функциями
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/3a4a89b7-675b-4a61-aa0d-4607f02c9795)
+
+В выпадающем списке есть несколько функций, такие как, "Открыть", "Сохранить". Эти функции предназначены для отрытия текстового файла, и сохранения его.
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/a4128be4-10bd-4cce-9ab5-94a52c5861a6)
+Щелкнув по кнопке "Открыть" откроется диалоговое окно, где вы сможете выбрать нужный вам файл.
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/52ad842a-8631-4e39-ba6d-fac0175889e4)
+Щелкнув по кнопке "Сохранить", вы сможете сохранить измененный вами файл.
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/9eb9e601-c7f5-4524-b5a1-bc5580700bdd)
+
+
