@@ -115,3 +115,5 @@ http://metanit.com/sharp/
 
 https://metanit.com/sharp/windowsforms/
 
+## Видео гайд
+[Клик](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
