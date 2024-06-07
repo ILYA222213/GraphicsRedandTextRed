@@ -56,11 +56,17 @@ Microsoft Visual Studio Community 2022
 3. Изменить размер линии
 4. Сохранить изображение
 5. Посмотреть информацию о программе
-6. Выйти из формы
+6. Добавить фигуры
+7. Очистить рабочее место с помощью сторки или же одним нажатием стереть все
+8. Выйти из формы
 
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/e4c5c061-3ebe-4556-9132-c15ddd283ed5)
+
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/297c8161-5869-4109-a93a-252e09e6b50b)
+
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/e55a4e70-3145-40fa-8320-d9351e5300e9)
+
+![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/77c19a52-3c73-4bdf-b739-324914ffabe4)
 
 ![image](https://github.com/ILYA222213/GraphicsRedandTextRed/assets/117897751/d9597246-85e6-40a8-b9a1-3fcb695ba0a3)
 
