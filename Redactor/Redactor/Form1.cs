@@ -9,19 +9,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using NLog;
 namespace Redactor
 {
     public partial class Form1 : Form
     {
+       
         public Form1()
 
         {
+            Logger.Log($"Запуск программы");
             InitializeComponent();
             
             saveFileDialog1.Filter = "Text File(*.txt)|*.txt|TIM Notepad File(*.tnf)|*.tnf";
         }
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -42,9 +44,10 @@ namespace Redactor
             // Выбор директории для сохранения файла
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
+                Logger.Log($"Генерация QR-кода");
                 // Генерация уникального имени файла на основе текущей даты и времени
                 string qrCodeFilePath = Path.Combine(folderBrowserDialog1.SelectedPath, DateTime.Now.ToString("yyyyMMddHHmmss") + ".png");
-
+                Logger.Log($"Сохранение QR-кода");
                 // Сохранение QR-кода как изображения PNG
                 qrCodeImage.Save(qrCodeFilePath, System.Drawing.Imaging.ImageFormat.Png);
 
@@ -59,6 +62,7 @@ namespace Redactor
 
         private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Logger.Log($"Открытие файла");
             if (openFileDialog1.ShowDialog() == DialogResult.Cancel) return;
             string filename = openFileDialog1.FileName;
             string fileText = File.ReadAllText(filename);
@@ -70,6 +74,7 @@ namespace Redactor
         {
             if(richTextBox1.Text.Length > 0)
             {
+                Logger.Log($"Копирование текста");
                 richTextBox1.Copy();
             }
         }
@@ -78,6 +83,7 @@ namespace Redactor
         {
             if (richTextBox1.Text.Length > 0)
             {
+                Logger.Log($"Вставка текста");
                 richTextBox1.Paste();
             }
         }
@@ -86,18 +92,21 @@ namespace Redactor
         {
             if (richTextBox1.Text.Length > 0)
             {
+                Logger.Log($"Вырезать текст");
                 richTextBox1.Cut();
             }
         }
 
         private void настройкиШрифтаToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Logger.Log($"Настройки шрифта");
             fontDialog1.ShowDialog();
             richTextBox1.Font = fontDialog1.Font;
         }
 
         private void настройкиФонаToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Logger.Log($"Настройки фона");
             colorDialog1.ShowDialog();
             richTextBox1.BackColor = colorDialog1.Color;
         }
@@ -106,6 +115,7 @@ namespace Redactor
         {
             if (richTextBox1.Text.Length > 0)
             {
+                Logger.Log($"Выделение текста");
                 richTextBox1.SelectAll();
             }
         }
@@ -122,6 +132,7 @@ namespace Redactor
         {
             if (richTextBox1.Text.Length > 0)
             {
+                Logger.Log($"Копирование текста");
                 richTextBox1.Copy();
             }
         }
@@ -165,7 +176,9 @@ namespace Redactor
         }
 
         private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
+
         {
+            Logger.Log($"Сохранение файла");
             if (saveFileDialog1.ShowDialog() == DialogResult.Cancel) return;
             string filename = saveFileDialog1.FileName;
             File.WriteAllText(filename, richTextBox1.Text);
@@ -185,5 +198,6 @@ namespace Redactor
             // Показать новую форму
             form2.Show();
         }
+     
     }
 }

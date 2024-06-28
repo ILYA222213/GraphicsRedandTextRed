@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using NLog;
 
 namespace Redactor
 {
@@ -23,6 +24,7 @@ namespace Redactor
 
         public Form2()
         {
+            Logger.Log($"Открытие формы");
             InitializeComponent();
             pic = new Bitmap(10000, 10000);
            
@@ -45,6 +47,7 @@ namespace Redactor
 
         private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Logger.Log($"Сохранение изображения");
             saveFileDialog1.ShowDialog();
             if (saveFileDialog1.FileName != "");
             pic.Save(saveFileDialog1.FileName);
@@ -54,6 +57,7 @@ namespace Redactor
         private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
+                Logger.Log($"Открытие изображения");
             {
                 if (openFileDialog1.FileName != "")
                 {
@@ -73,6 +77,7 @@ namespace Redactor
 
         private void выбратьЦветToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Logger.Log($"Выбор цвета линии");
             // Создать диалоговое окно выбора цвета
             ColorDialog colorDialog = new ColorDialog();
 
@@ -156,11 +161,12 @@ namespace Redactor
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
-
+            Logger.Log($"Изменение размера линии");
         }
 
         private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Logger.Log($"О программе");
             // Текст о программе
             string message = "Это упрощенные графический редактор, с менимальным функционалом.";
 
@@ -170,6 +176,7 @@ namespace Redactor
 
         private void выходToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Logger.Log($"ЗАкрытие формы");
             // Отобразить запрос подтверждения
             if (MessageBox.Show("Вы действительно хотите закрыть форму?", "Подтверждение закрытия", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
@@ -180,19 +187,23 @@ namespace Redactor
 
         private void очиститьВсёToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Logger.Log($"Очистить экран");
             pic = new Bitmap(10000, 10000);
             pictureBox1.Image = null;
         }
 
         private void режимСтёркиToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Logger.Log($"Использование стерки");
             button4.BackColor = Color.White;
         }
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
           
-            if(index == 1){
+            if(index == 1)
+            {
+               
                 p = new Pen(button4.BackColor, trackBar1.Value);
                 p.EndCap = System.Drawing.Drawing2D.LineCap.Round;
                 p.StartCap = System.Drawing.Drawing2D.LineCap.Round;
