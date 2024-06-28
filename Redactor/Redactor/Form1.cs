@@ -178,6 +178,7 @@ namespace Redactor
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Logger.Log($"Переход на новую форму");
             // Создать новую форму
             Form2 form2 = new Form2();
 
